@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: curly
+spec:
+  containers:
+  - name: curly
+    image: curlimages/curl
+    args:
+    - sleep
+    - infinity
